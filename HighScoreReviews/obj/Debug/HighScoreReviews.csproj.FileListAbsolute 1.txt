@@ -1,0 +1,32 @@
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\Bin\Debug\HighScoreReviews.dll
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\Bin\Debug\HighScoreReviews.pdb
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\Bin\Debug\AppManifest.xaml
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\Bin\Debug\Properties\WMAppManifest.xml
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\Bin\Debug\HighScoreReviews_Debug_AnyCPU.xap
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\App.g.cs
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\MainPage.g.cs
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.g.resources
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.Resources.AppResources.resources
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.csproj.GenerateResource.Cache
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.dll
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.pdb
+c:\users\joshua lawrence\documents\visual studio 2012\Projects\HighScoreReviews\HighScoreReviews\obj\Debug\XapCacheFile.xml
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\HighScoreReviews.dll
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\HighScoreReviews.pdb
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\AppManifest.xaml
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\HighScoreReviews_Debug_AnyCPU.xap
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\Newtonsoft.Json.dll
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\Bin\Debug\Newtonsoft.Json.xml
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\App.g.cs
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\Help.g.cs
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\MainPage.g.cs
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\Twitter.g.cs
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.g.resources
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.Resources.AppResources.resources
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.csproj.GenerateResource.Cache
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.dll
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.pdb
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\XapCacheFile.xml
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\HighScoreReviews.csprojResolveAssemblyReference.cache
+C:\Users\Joshua Lawrence\SkyDrive\HighScoreReviews\HighScoreReviews\obj\Debug\Article.g.cs

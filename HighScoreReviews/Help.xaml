@@ -1,0 +1,57 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="HighScoreReviews.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True" Background="White">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+            <Image x:Name="Banner" HorizontalAlignment="Left" Height="106" VerticalAlignment="Top" Width="480" Source="/Assets/Banner.png" Margin="-12,8,-12,0"/>
+            <TextBlock Margin="-12,101,-12,543" Text="Help" Height="42" FontSize="24" Foreground="Black" FontWeight="Bold" TextAlignment="Center"/>
+            <ScrollViewer HorizontalAlignment="Left" Height="533" Margin="10,153,0,0" VerticalAlignment="Top" Width="436">
+                <StackPanel> 
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Thanks for using the High Score Reviews WP8 App!" VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Articles Page" VerticalAlignment="Top" Width="436" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="The articles page you come to pulls the 20 latest articles from the HSR site. To view an article click on it in the menu and it will load the web page! To return back to the app click the back arrow built into your windows phone! &#xD;&#xA;&#xD;&#xA; If you are not connected to the internet then the data cannot be pulled from the site" VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Twitter Page" VerticalAlignment="Top" Width="436" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="The Twitter page finds the most recent tweets from the HSR account! Click on the tweet to find out more details about the tweet. Click on the back arrow built into your windows phone to return back to the app. &#xD;&#xA;&#xD;&#xA; You can also follow us from this page by clicking on the 'follow' button. This will take you to twitters secure login page so you personal information is never know by us! &#xD;&#xA;&#xD;&#xA; If you are not connected to the internet the app cannot pull the tweets from the server. Also if the server is overloaded it will not pull the required data." VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Credits" VerticalAlignment="Top" Width="436" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="This app was created by High Score Reviews founder &amp; Editor-in-Chief Joshua Lawrence for use as a Social Applications Development Assignment. &#xD;&#xA;&#xD;&#xA; Both articles content and twitter content is original content created by members of the HSR team and owned by High Score Reviews." VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="High Score Reviews 2014 | highscorereviews.com" VerticalAlignment="Top" Width="436" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Default" Opacity="1.0">
+
+            <shell:ApplicationBarIconButton IconUri="/Assets/ArticlesNavIcon.png" Text="Articles" Click="NavArticles_Click"/>
+
+            <shell:ApplicationBarIconButton IconUri="/Assets/TwitterNavIcon.png" Text="Twitter" Click="NavTwitter_Click"/>
+
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/questionmark.png" Text="Help" Click="NavHelp_Click"/>
+
+        </shell:ApplicationBar>
+
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>

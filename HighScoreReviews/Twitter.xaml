@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="HighScoreReviews.Twitter"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+            <Image x:Name="Banner" HorizontalAlignment="Left" Height="106" VerticalAlignment="Top" Width="480" Source="/Assets/Banner.png" Margin="-12,8,-12,0"/>
+
+            <Button x:Name="FollowButton" Content="                     " Margin="316,97,10,521" Click="FollowButton_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/TwitterFollowButton.png" Stretch="Fill"/>
+                </Button.Background>
+            </Button>
+            <TextBlock Margin="21,119,140,535" Text="@HighScoreReviews" Height="42" FontSize="24" Foreground="Black" FontWeight="Bold"/>
+
+            <ListBox Height="535" HorizontalAlignment="Left" Margin="6,161,0,0" Name="tweets" VerticalAlignment="Top" Width="444" SelectionChanged="tweets_SelectionChanged_1">
+
+                <ListBox.ItemTemplate>
+
+                    <DataTemplate>
+
+                        <StackPanel Orientation="Horizontal" Height="132">
+
+                            <Image Source="{Binding ImageSource}" Height="73" Width="73" VerticalAlignment="Top" Margin="0,10,8,0"/>
+
+                            <StackPanel Width="370">
+
+                                <TextBlock Text="{Binding UserName}" Foreground="Black" FontSize="28" FontWeight="Bold" />
+
+                                <TextBlock Text="{Binding Message}" Foreground="#FFE3611B" TextWrapping="Wrap" FontSize="18" FontWeight="Bold" />
+
+                            </StackPanel>
+
+                        </StackPanel>
+
+                    </DataTemplate>
+
+                </ListBox.ItemTemplate>
+
+            </ListBox>
+
+        </Grid>
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True" Mode="Default" Opacity="1.0">
+
+            <shell:ApplicationBarIconButton IconUri="/Assets/ArticlesNavIcon.png" Text="Articles" Click="NavArticles_Click"/>
+
+            <shell:ApplicationBarIconButton IconUri="/Assets/TwitterNavIcon.png" Text="Twitter" Click="NavTwitter_Click"/>
+
+            <shell:ApplicationBarIconButton IconUri="/Assets/AppBar/questionmark.png" Text="Help" Click="NavHelp_Click"/>
+
+        </shell:ApplicationBar>
+
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
